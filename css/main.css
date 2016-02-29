@@ -1,0 +1,69 @@
+body{
+	font-family: Arial;
+}
+header{
+	background: url("../image/large.jpg") no-repeat;
+	background-size: cover;
+	width: 100%;
+
+}	
+.opacity{
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+}	
+header,
+aside,
+a{
+	color: white;		
+}.
+.navegador{
+	text-align: right;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+	font-size: 16px;	
+}
+.navbar-inverse {
+    background-color: transparent;
+	border-color:transparent;
+}
+.onehour, 
+.gratis,
+#services{
+	text-align: center;
+}
+.onehour h1{
+	padding:14% 18%;
+	font-size: 45px;
+}
+.gratis{
+	background-color: rgba(78,126,184,0.9);
+}
+.gratis .row{
+	padding: 2.1% 28%;
+}
+.gratis .col-md-6:nth-child(2){
+	padding: 4% 0% 4.5%;
+}
+.gratis a {
+	margin:0 auto;
+	padding: 3%;
+	border:white solid 1px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+#services .row:nth-child(1),
+#services .row:nth-child(2) i{
+	color:#58A5FF;
+}
+#services .row:nth-child(2) i{
+	font-size: 50px;
+	padding: 10%;
+	border-radius: 100px;
+	box-shadow: 2px 2px 5px gray;
+}
+#services .row:nth-child(2){
+	padding: 5% 6%;
+
+}
