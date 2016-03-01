@@ -1,7 +1,6 @@
 body{
 	font-family: 'Lato', sans-serif;
 
-
 }
 .pd-2{
 padding: 0% 2%;
@@ -20,11 +19,20 @@ header{
 .pd-0{
 	padding: 0;
 }
+.row{
+	margin:0;
+}
 header,
 aside,
 {
 	color: white;		
-}.
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: rgba(255, 255, 255,0.3);
+}
+.navbar-inverse .navbar-toggle {
+    border-color: white;
+}
 .navegador{
 	text-align: right;
 }
@@ -35,6 +43,13 @@ aside,
 .navbar-inverse {
     background-color: transparent;
 	border-color:transparent;
+}
+.cambio{
+	background-color: #036EBF;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	border-radius: 0px;
 }
 .onehour, 
 .gratis,
@@ -144,7 +159,8 @@ border-top: 1px solid #F0F0F0;
 	border-radius: 50px;
 	background-color: #50BDEA;
 	color:white;	
-	width: 50px;text-align: center;
+	width: 50px;
+	text-align: center;
 }
 #using .letras{
 	position: relative;	

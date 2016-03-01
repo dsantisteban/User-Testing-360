@@ -1,0 +1,68 @@
+@media screen and (max-width: 1200px){
+	
+}
+@media screen and (max-width: 1024px){
+	.iconos{
+		display: none;
+	}
+}
+@media screen and (max-width: 1000px) and (min-width:100px){
+	body{
+		font-size: 16px;
+	}
+	.onehour h1 {
+		padding: 6%;
+		font-size: 38px;
+	}
+	.gratis .row {
+		padding: 2%;
+	}
+	.iconos{
+		display: none;
+	}
+	#services .row:nth-child(2) .col-md-4 div:nth-child(2) h4 {
+
+		margin: 5%;
+		
+	}
+	#example .flecha{
+		-ms-transform: rotate(90deg); /* IE 9 */
+		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+		transform: rotate(90deg);
+		padding: 5%;
+	}
+	#using .letras{
+		padding: 15% 2%;
+		
+	}
+	#example .col-md-6:nth-child(1) p, 
+	#using .letras, 
+	#becouse{
+		text-align: justify;
+	}
+	#becouse h1, 
+	footer p,
+	.letras h3,
+	#using h4{
+		text-align: center;
+	}
+	#using .letras ul {
+		padding: 3% 0% 3% 6%;
+		line-height: 1.5;
+	}
+	#becouse ul {
+		
+		line-height:1.5;
+	}
+	.formulario {
+		top:25%;
+		text-align: center;
+		width: 87%;
+	}
+	.form-control {
+    border-radius: 0px;
+    height: 20px;
+    width: 100%;
+}
+
+}
