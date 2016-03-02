@@ -10,6 +10,10 @@
 	body{
 		font-size: 16px;
 	}
+	.navbar-collapse li a:hover{
+		border-left: 2px solid white;
+		border-bottom: 0px ;
+	}
 	.onehour h1 {
 		padding: 6%;
 		font-size: 38px;
@@ -21,19 +25,19 @@
 		display: none;
 	}
 	#services .row:nth-child(2) .col-md-4 div:nth-child(2) h4 {
-
 		margin: 5%;
-		
+	}
+	#services h1 {
+		margin: 15% 0% 10% 0%;
 	}
 	#example .flecha{
 		-ms-transform: rotate(90deg); /* IE 9 */
 		-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
 		transform: rotate(90deg);
-		padding: 5%;
+		margin: 6%;
 	}
 	#using .letras{
-		padding: 15% 2%;
-		
+		padding: 15% 2%;	
 	}
 	#example .col-md-6:nth-child(1) p, 
 	#using .letras, 
@@ -51,7 +55,7 @@
 		line-height: 1.5;
 	}
 	#becouse ul {
-		
+
 		line-height:1.5;
 	}
 	.formulario {
@@ -60,9 +64,8 @@
 		width: 87%;
 	}
 	.form-control {
-    border-radius: 0px;
-    height: 20px;
-    width: 100%;
-}
-
+		border-radius: 0px;
+		height: 20px;
+		width: 100%;
+	}
 }

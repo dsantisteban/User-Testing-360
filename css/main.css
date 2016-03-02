@@ -44,6 +44,9 @@ aside,
     background-color: transparent;
 	border-color:transparent;
 }
+.navbar-collapse li a:hover{
+	border-bottom: 2px solid white;
+}
 .cambio{
 	background-color: #036EBF;
 	position: fixed;
@@ -88,6 +91,10 @@ footer{
 #services .row:nth-child(2) i, 
 #using .letras h4{
 	color:#58A5FF;
+}
+#services h1{
+	font-weight: 300;
+	margin: 5% 0% 0% 0%;
 }
 #services .row:nth-child(1){
 	padding:5% 0% 0% 0%;
